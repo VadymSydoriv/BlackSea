@@ -1,0 +1,544 @@
+:root {
+    --menu-bg-color: #4d9aa4;
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+.main {
+    background-color: var(--menu-bg-color);
+}
+
+.site {
+    background-color: black;
+}
+
+.menu {
+    background-color: var(--menu-bg-color);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.photo {
+    background-image: url(photo/Sea.png);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ph-2 {
+    background-color: transparent;
+    border-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.ph-1 {
+    font-size: 50px;
+}
+
+.text {
+    width: 100vw;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lorem {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pictures {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pictures>img {
+    height: 50px;
+    width: 50px;
+}
+
+.ancets {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+br+p {
+    height: 95%;
+    width: 95%;
+}
+
+.boy-1 {
+    height: 100%;
+    width: 95%;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(72, 218, 116);
+}
+
+.boy-2 {
+    height: 100%;
+    width: 95%;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(120, 39, 212);
+}
+
+.boy-3 {
+    height: 100%;
+    width: 95%;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(156, 24, 24);
+}
+
+.kolo {
+    height: 80px;
+    width: 80px;
+    border: 30px;
+    border-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.web>img {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+}
+
+.creator {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.web>img {
+    margin: 1px;
+}
+
+@media only screen and (min-width: 1600px) {
+    .menu {
+        height: 65px;
+        font-size: 20px;
+    }
+    .a-menu>a {
+        font-size: 20px;
+    }
+    .ph-1 {
+        font-size: 55px;
+    }
+    .ph-2 {
+        height: 40px;
+        width: 100px;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+    .photo {
+        background-image: url(photo/Sea.png);
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+    }
+    .a-menu {
+        width: 40%;
+    }
+    .text {
+        margin-top: 55px;
+        font-size: 25px;
+    }
+    .lorem {
+        font-size: 25px;
+    }
+    .pictures>img {
+        height: 60px;
+        width: 60px;
+    }
+    br+p {
+        font-size: 24px;
+    }
+    .kolo {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
+    br+h2 {
+        font-size: 40px;
+    }
+    .boy-1 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-2 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-3 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .web>img {
+        height: 35px;
+        width: 35px;
+        border: 1px solid white;
+    }
+    .web {
+        margin-top: 35px;
+        height: 60px;
+    }
+    .creator {
+        width: 100vw;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .a-menu {
+        width: 40%;
+    }
+    .a-menu>a {
+        font-size: 18px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .lorem {
+        font-size: 20px;
+    }
+    br+p {
+        font-size: 20px;
+    }
+    .kolo {
+        height: 100px;
+        width: 100px;
+    }
+    br+h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        height: 45px;
+        font-size: 15px;
+    }
+    .a-menu>a {
+        font-size: 15px;
+    }
+    .ph-1 {
+        font-size: 35px;
+    }
+    .ph-2 {
+        height: 30px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 12.5px;
+    }
+    .photo {
+        background-image: url(photo/Sea.png);
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+    }
+    .a-menu {
+        width: 50%;
+    }
+    .text {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .lorem {
+        font-size: 16px;
+    }
+    .pictures>img {
+        height: 40px;
+        width: 40px;
+    }
+    br+p {
+        font-size: 16px;
+    }
+    .kolo {
+        height: 90px;
+        width: 90px;
+    }
+    br+h2 {
+        font-size: 24px;
+    }
+    .boy-1 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-2 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-3 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .web>img {
+        height: 22px;
+        width: 22px;
+        border: 1px solid white;
+    }
+    .web {
+        margin-top: 35px;
+        height: 40px;
+    }
+    .creator {
+        width: 100vw;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        height: 40px;
+        font-size: 11px;
+    }
+    .a-menu>a {
+        font-size: 9px;
+    }
+    .ph-1 {
+        font-size: 28px;
+    }
+    .ph-2 {
+        height: 20px;
+        width: 65px;
+        border-radius: 3px;
+        border: 1px solid white;
+        font-size: 9px;
+    }
+    .photo {
+        background-image: url(photo/Sea.png);
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+    }
+    .a-menu {
+        width: 50%;
+    }
+    .text {
+        height: 60px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .lorem {
+        font-size: 12px;
+    }
+    .pictures>img {
+        height: 40px;
+        width: 40px;
+    }
+    br+p {
+        font-size: 12px;
+    }
+    .kolo {
+        height: 60px;
+        width: 60px;
+    }
+    br+h2 {
+        font-size: 20px;
+    }
+    .boy-1 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-2 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-3 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .web>img {
+        height: 20px;
+        width: 20px;
+        border: 1px solid white;
+    }
+    .web {
+        height: 50px;
+    }
+    .creator {
+        width: 100vw;
+        height: 35px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .menu {
+        height: 30px;
+        font-size: 8px;
+    }
+    .a-menu>a {
+        font-size: 8px;
+    }
+    .ph-1 {
+        font-size: 20px;
+    }
+    .ph-2 {
+        height: 15px;
+        width: 60px;
+        border-radius: 3px;
+        font-size: 8px;
+        border: 1px solid white;
+    }
+    .photo {
+        background-image: url(photo/Sea.png);
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+    }
+    .a-menu {
+        width: 50%;
+    }
+    .text {
+        height: 50px;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .lorem {
+        height: 50px;
+        font-size: 10px;
+    }
+    .pictures {
+        height: 45px;
+    }
+    .pictures>img {
+        height: 25px;
+        width: 25px;
+    }
+    br+p {
+        font-size: 10px;
+    }
+    .kolo {
+        height: 50px;
+        width: 50px;
+    }
+    br+h2 {
+        font-size: 15px;
+    }
+    .boy-1 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-2 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .boy-3 {
+        height: 100%;
+        width: 95%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .web>img {
+        height: 15px;
+        width: 15px;
+        border: 1px solid white;
+    }
+    .web {
+        height: 30px;
+    }
+    .creator {
+        width: 100vw;
+        height: 35px;
+        font-size: 10px;
+    }
+}
